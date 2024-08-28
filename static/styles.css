@@ -1,0 +1,136 @@
+/* Estilos personalizados adicionales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo general para los títulos */
+h1, h2 {
+    font-size: 2.3em;
+    text-align: center; /* Centra los títulos */
+}
+
+/* Estilo general para los párrafos */
+p { 
+    font-size: 1.2em;
+    text-align: justify; /* Justifica el texto para una mejor lectura */
+}
+
+/* Estilos para las secciones */
+.section {
+    background-color: #fdf5e6; /* Color crema */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Imagen grande y centrada */
+.large-img {
+    max-width: 100%; /* Hace que la imagen sea responsiva */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    max-height: 500px; /* Tamaño grande adaptable */
+    object-fit: cover; /* Asegura que la imagen se ajuste dentro de su contenedor */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos específicos para el navbar */
+.navbar {
+    padding: 0 100px; /* Añade padding a los lados para alejar los elementos de los bordes */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 40px; /* Aumenta el margen para separar el nombre de los enlaces */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Mueve los enlaces hacia la derecha */
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces */
+}
+
+.nav-link {
+    color: white !important; /* Asegura que los enlaces se vean en blanco */
+    font-size: 1rem; /* Ajusta el tamaño de los enlaces */
+}
+
+/* Estilos para la imagen del logo */
+.logo-container {
+    text-align: center; /* Centra la imagen horizontalmente */
+    padding: 20px 0; /* Espacio alrededor de la imagen */
+}
+
+.logo-img {
+    max-width: 100%; /* Hace que la imagen sea responsiva */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    max-height: 200px; /* Limita la altura máxima de la imagen */
+    object-fit: contain; /* Asegura que la imagen se ajuste dentro de su contenedor */
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #333; /* Fondo oscuro */
+    padding: 20px 0; /* Espaciado vertical */
+    color: white; /* Texto blanco */
+}
+
+.footer-text, .footer-subtext {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center; /* Centra el texto */
+}
+
+.footer-subtext {
+    font-size: 0.9em; /* Texto más pequeño para la línea de derechos reservados */
+    margin-top: 10px; /* Espacio entre el texto principal y el subtexto */
+}
+
+/* Estilos para la sección de contacto */
+.contact-links {
+    display: flex;
+    flex-direction: column; /* Coloca los enlaces en columna */
+    gap: 10px; /* Espacio entre los enlaces */
+    margin-top: 20px; /* Espacio entre el texto de invitación y los enlaces */
+}
+
+.contact-link {
+    color: #333; /* Color del texto de los enlaces */
+    font-size: 1.2em; /* Tamaño del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita para los enlaces */
+}
+
+.contact-link:hover {
+    color: #0056b3; /* Cambia de color al pasar el mouse */
+    text-decoration: underline; /* Subraya al pasar el mouse */
+}
+
+/* Imagen seccion beneficios de tamaño medio y centrada */
+.medium-img {
+    max-width: 100%; /* Hace que la imagen sea responsiva */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    max-height: 400px; /* Tamaño medio adaptable */
+    object-fit: cover; /* Asegura que la imagen se ajuste dentro de su contenedor */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Imagen seccion SOBRE MI de tamaño medio y centrada */
+.medium-img {
+    max-width: 100%; /* Hace que la imagen sea responsiva */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    max-height: 400px; /* Tamaño medio adaptable */
+    object-fit: cover; /* Asegura que la imagen se ajuste dentro de su contenedor */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
